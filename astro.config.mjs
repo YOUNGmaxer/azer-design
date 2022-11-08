@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [lit()],
   vite: {
     optimizeDeps: {
-      include: ['node-domexception']
+      include: ['node-domexception/index.js']
     }
   }
 });
